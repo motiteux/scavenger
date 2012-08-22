@@ -9,7 +9,7 @@ Content
 
 *   Decorators used for profiling (function calls, coverage, profiles)
 
-Contributors
+Attributions
 ------------
 
 *   Eli Bendersky: https://github.com/eliben and http://eli.thegreenplace.net
