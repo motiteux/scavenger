@@ -12,4 +12,4 @@ Content
 Contributors
 ------------
 
-*   Eli Bendersky: eliben
+*   Eli Bendersky: eliben#1
