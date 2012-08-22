@@ -12,4 +12,4 @@ Content
 Contributors
 ------------
 
-*   Eli Bendersky: eliben#1
+*   Eli Bendersky: https://github.com/eliben and http://eli.thegreenplace.net
