@@ -103,7 +103,7 @@ __authors__ = [  # alphabetical order by last name, please
                '"Marc-Olivier Titeux" <marc-olivier.titeux@ifpen.fr>'
                ]
 
-__all__ = ['MyClass']
+__all__ = ['TraceCalls']
 
 
 import sys
