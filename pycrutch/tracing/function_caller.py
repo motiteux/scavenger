@@ -10,4 +10,6 @@ This is a quick one-liner to produce the filename and line number of the caller 
 This is useful for debugging and logging. It also nicely demonstrates the attribute access feature of the .format() method format string. If you wrap it in a function change the argument to _getframe() to 2. Add '{0.f_code.co_name}' to the format string to get the name of function containing the call site.
 """
 
+import sys
+
 '{0.f_code.co_filename}:{0.f_lineno}'.format(sys._getframe(1))
