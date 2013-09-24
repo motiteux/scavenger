@@ -3,11 +3,7 @@
 #
 # This module merges existing .gitignore files from several location in
 # a git repository into one root .gitignore file
-#
-# Created on Jan 24, 2013
-#
-# @author:  Marc-Olivier Titeux
-# Nimble Rock
+
 
 from __future__ import print_function
 
@@ -16,9 +12,7 @@ Merge several .gitignore files from a git repository in one and only file to
 rule them all.
 '''
 
-__authors__ = [  # alphabetical order by last name, please
-                '"Marc-Olivier Titeux" <marcolivier.titeux@gmail.com>',
-                ]
+__authors__ = [ 'marco' ]
 
 import os 
 import argparse
