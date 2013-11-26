@@ -11,8 +11,9 @@ with FileStatus(self.file_status_path) as file_status, Timer() as timer:
 
 import time
 
+
 class Timer(object):
-    ""Context Manager to track elapsed time in computation. This could allow 
+    """Context Manager to track elapsed time in computation. This could allow
     to restart operation by changing __enter__, or using memoization.
     """
     def __init__(self):

@@ -4,7 +4,6 @@ import sys
 from contextlib import contextmanager
 
 
-
 @contextmanager
 def manage_exit(log):
     """Context manager to use in prometheus.py. Deals with the proper series of
