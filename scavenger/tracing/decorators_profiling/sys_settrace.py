@@ -9,3 +9,5 @@ def trace_func(frame, event, arg):
         '\tLine:', frame.f_lineno, \
         '\tEvent:', event
     return trace_func
+
+sys.settrace(trace_func)
